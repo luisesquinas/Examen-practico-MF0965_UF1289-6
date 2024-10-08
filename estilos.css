@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    padding: 15px 5px; /* Padding reducido en los lados (izquierdo y derecho) */
+    border: 5px solid black; /* Grosor del borde aumentado a 5px */
+    text-align: center;
+    max-width: 500px;
+    width: 80%; /* Ajustado a 80% para reducir aún más los márgenes */
+    border-radius: 0; /* Sin curva en las esquinas */
+    margin: 0 10px; /* Márgenes izquierdo y derecho reducidos */
+}
+
+h1 {
+    font-size: 28px; /* Tamaño del texto H1 aumentado */
+    margin-bottom: 15px;
+    font-weight: 800; /* Grosor del texto H1 */
+}
+
+p {
+    font-size: 14px; /* Tamaño del texto P ajustado a 13px */
+    color: #7a7a7a; /* Texto del párrafo en gris más oscuro */
+    margin: 0; /* Eliminado el margen del párrafo */
+    padding: 0 0; /* Sin padding en el párrafo */
+    font-weight: 200; /* Grosor del texto del párrafo */
+    text-align: center; /* Alineación centrada */
+    line-height: 1.5; /* Espaciado entre líneas aumentado */
+    margin-bottom: 20px; /* Espacio añadido después del párrafo */
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Ajustado el espacio entre botones */
+}
+
+.btn {
+    padding: 8px 18px; /* Ajustado el padding para reducir un poco la anchura */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none; /* Eliminado el borde del botón Iniciar */
+}
+
+.iniciar {
+    background-color: #007bff;
+    color: white;
+}
+
+.cerrar {
+    background-color: white; /* Fondo blanco para el botón Cerrar */
+    color: #666;
+    border: 1px solid #ccc; /* Borde gris para el botón Cerrar */
+}
